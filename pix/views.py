@@ -19,3 +19,17 @@ def home(request):
     }
     return render(request,'welcome.html',context)
 
+def location(request,location):
+    print(location)
+    images = Image.get_by_location(location)
+    title = location
+    breadcrumb = "Location"
+    
+    context = {
+       "images" : images , 
+       "title" : title , 
+       "breadcrumb" : breadcrumb, 
+    }
+    return render(request,'location.html', context )
+
+
