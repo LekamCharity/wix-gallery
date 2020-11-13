@@ -17,5 +17,5 @@ def home(request):
         'locations' : locations,
         'categories' : categories,
     }
-    return render(request,'index.html',context)
+    return render(request,'welcome.html',context)
 
