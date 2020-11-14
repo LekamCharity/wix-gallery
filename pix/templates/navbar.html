@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/"> <i class="fa fa-info-circle" ></i>Share <i class="fa fa-location-arrow"></i> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+          {% if locations %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Location</a>
+          <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 37px, 0px);">
+            {% for location in locations %}
+            <a class="dropdown-item" href="location/{{location.name}}">{{ location.name }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% endif %}
+  
+        {% if categories %}
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Category</a>
+          <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 37px, 0px);">
+            {% for category in categories %}
+            <a class="dropdown-item" href="category/{{category.name}}">{{ category.name }}</a>
+            {% endfor %}
+          </div>
+        </li>
+        {% endif %}
+      </ul>
+  
+      <form action="{% url 'search_images' %}" role="search" class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" name='images' placeholder="search iShare">
+        <button style="color:black;background:white" type="submit" class="btn btn-primary">Search <i class="fa fa-bug"></i> </button>
+      </form>
+    </div>
+  </nav>
