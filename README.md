@@ -4,7 +4,7 @@
 >[LekamCharity](https://github.com/LekamCharity/wix-gallery.git)  
   
 # Description  
-This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
+This is a wix-gallery app that displays various pictures and a brief description of them and it also allows users to upload images for others to see and be able to share by coping with the image link.
   
 ##  Live Link  
 
