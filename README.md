@@ -1,15 +1,13 @@
-# Album 
+# Wix-gallery
 ## Author  
   
->[Albert-Byrone](https://github.com/Albert-Byrone/Gallery.git)  
+>[LekamCharity](https://github.com/LekamCharity/wix-gallery.git)  
   
 # Description  
 This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
   
 ##  Live Link  
-Click https://django-heroku-album.herokuapp.com/ to visit the webite
-## Screenshots 
-###### Home page
+
 
 ## User Story  
   
@@ -25,12 +23,12 @@ Click https://django-heroku-album.herokuapp.com/ to visit the webite
 To get the project .......  
   
 ##### Cloning the repository:  
- ```bash 
-https://github.com/Albert-Byrone/Gallery.git
+ ```
+https://github.com/LekamCharity/wix-gallery.git
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
-cd Album pip install -r requirements.txt 
+cd Wix-gallery pip install -r requirements.txt 
 ```
 ##### Install and activate Virtual  
  ```bash 
@@ -66,16 +64,17 @@ Open the application on your browser `127.0.0.1:8000`.
   
 ## Technology used  
   
-* [Python3.6](https://www.python.org/)  
-* [Django 1.11](https://docs.djangoproject.com/en/2.2/)  
-* [Heroku](https://heroku.com)  
+* [Python3.8]
+* [Django 3.1.3]
+* [Heroku]
   
   
 ## Known Bugs  
 * There are no known bugs currently but pull requests are allowed incase you spot a bug  
   
 ## Contact Information   
-If you have any question or contributions, please email me at [albertbyrone1677@gmail.com]  
-## License 
+If you have any question or contributions, please email me at [lekamcharity@gmail.com]  
 
-* Copyright (c) 2019 **Albert Byrone**
+### License
+  [MIT](https://github.com/LekamCharity/wix-gallery/blob/master/License) Copyright (c) 2020 Lekam Charity
+
