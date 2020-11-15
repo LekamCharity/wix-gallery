@@ -22,7 +22,7 @@ This is a wix-gallery app that displays various pictures and a brief description
 ## Setup and Installation  
 To get the project .......  
   
-##### Cloning the repository:  
+##### Clone the repository:  
  ```
 https://github.com/LekamCharity/wix-gallery.git
 ```
@@ -41,7 +41,7 @@ cd Wix-gallery pip install -r requirements.txt
  ##### Setup Database  
   SetUp your database User,Password, Host then make migrate  
  ```bash 
-python manage.py makemigrations pictures 
+python manage.py makemigrations 
  ``` 
  Now Migrate  
  ```bash 
