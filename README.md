@@ -9,6 +9,8 @@ This is a wix-gallery app that displays various pictures and a brief description
 ##  Live Link  
 ``` https://wixgallery.herokuapp.com/```
 
+## Figma Link
+```https://www.figma.com/file/TK30PJ6mXC5I0A56nfcndA/Untitled?node-id=0%3A1```
 ## User Story  
   
 * View different photos that interest them  
