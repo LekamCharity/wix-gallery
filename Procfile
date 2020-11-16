@@ -1,1 +1,1 @@
-web: gunicorn pix.wsgi
+web: gunicorn pix.wsgi --log-file -
