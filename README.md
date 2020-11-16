@@ -1,7 +1,7 @@
 # Wix-gallery
 ## Author  
   
->[LekamCharity](https://github.com/LekamCharity/wix-gallery.git)  
+[LekamCharity](https://github.com/LekamCharity/wix-gallery.git)  
   
 # Description  
 This is a wix-gallery app that displays various pictures and a brief description of them and it also allows users to upload images for others to see and be able to share by coping with the image link.
@@ -11,15 +11,13 @@ This is a wix-gallery app that displays various pictures and a brief description
 
 ## Figma Link
 ```https://www.figma.com/file/TK30PJ6mXC5I0A56nfcndA/Untitled?node-id=0%3A1```
+
 ## User Story  
   
-* View different photos that interest them  
-* Click a single image to expand it and view the details of that photo  
-* Search for different categories   
-* Copy a link to the photo to share with my friends.  
+* Click a single image to expand it and view the details of that photo   
+* Copy a link to the photo to share with friends.  
 * View photos based on the location they were taken.  
   
-
   
 ## Setup and Installation  
 To get the project .......  
