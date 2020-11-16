@@ -30,7 +30,7 @@
             {% endif %}
         </ul>
         <ul class="nav navbar-nav navbar-right">
-        <form action="{% url 'search_images' %}" role="search" class="form-inline my-2 my-lg-0">
+        <form action="{{image.image_url.url}}" role="search" class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="text" name='images' placeholder="search Wix-gallery">
             <button style="color:black;background:white" type="submit" class="btn btn-primary">Search</button>
         </form>
