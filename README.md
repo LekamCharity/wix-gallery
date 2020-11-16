@@ -7,7 +7,7 @@
 This is a wix-gallery app that displays various pictures and a brief description of them and it also allows users to upload images for others to see and be able to share by coping with the image link.
   
 ##  Live Link  
-
+``` https://wixgallery.herokuapp.com/```
 
 ## User Story  
   
