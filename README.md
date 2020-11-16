@@ -68,7 +68,6 @@ Open the application on your browser `127.0.0.1:8000`.
 * [Django 3.1.3]
 * [Heroku]
   
-  
 ## Known Bugs  
 * There are no known bugs currently but pull requests are allowed incase you spot a bug  
   
