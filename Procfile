@@ -1,1 +1,1 @@
-web: gunicorn wixgallery.wsgi --log-file -
+web: gunicorn Wix-gallery.wsgi --log-file -
