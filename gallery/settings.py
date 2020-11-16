@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 import dj_database_url
-MODE = config("MODE", default="prod")
+MODE = config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 # development
-if config('MODE') == "prod":
+if config('MODE') == "dev":
     DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
